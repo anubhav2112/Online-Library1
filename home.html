@@ -1,0 +1,52 @@
+<html>
+<body>
+	
+	<marquee behavior="scroll" bgcolor="pink" style="color:blue;"><font size="7">Hello</font></marquee>
+	<center><h2 style="background-color:pink;color:red;">Registration Form</h2></center>
+	<hr>
+	<center><form action="register">
+	<font size="6">Name</font>
+	<br>
+	<input type="text"name="txtname"size="50"required style="height:30px" placeholder="Enter your Name"/>
+	<br>
+	<font size="6">Password</font>
+	<br>
+	<input type="password"name="txtpassword"size="50"required style="height:30px" placeholder="Enter your Password"/>
+	<br>
+	<font size="6">Re-type Password</font>
+	<br>
+	<input type="password"name="txtretype"size="50"required style="height:30px" placeholder="Retype the password"/>
+	<br>
+	<font size="6">Mobile Number:</font>
+	<br>
+	<input type="text"name="txtmbl"size="50"required style="height:30px" placeholder="Enter your valid mobile Number"/>
+	<br>
+	<font size="6">Gender:</font>
+	<br>
+	<input type="radio"name="gender"value="Male"/><font size="5">male</font>
+	<input type="radio"name="gender"value="Female"/><font size="5">female</font>
+	<br>
+	<font size="6">Email:</font>
+	<br>
+	<input type="email"name="txtemail"size="50"required style="height:30px" placeholder="Enter your valid email-id"/>
+	<br>
+	<label>
+	<font size="6">State<br/></font>
+	<input list="state" name="states"required size="50" style="height:30px" placeholder="Enter your State"/>
+	<datalist id="state">
+	<option value="Assam">
+	<option value="Rajasthan">
+	<option value="Goa">
+	<option value="Mumbai">
+	<option value="Delhi">
+	<option value="Uttar Pradesh">
+	<option value="Uttarakhand">
+	<option value="Madhya Pradesh">
+	<option value="Maharashtra">
+	</datalist>
+	</label>
+	<br><br>
+	<input type="submit"value="Create Account"style="height:40px;width:150px"/>
+	</center></form>
+</body>
+</html>

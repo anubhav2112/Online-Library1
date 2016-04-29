@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+.button 
+{
+	background-color: RED;
+	border-radius: 10px;
+	border: none;
+    	color: white;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+   	font-size: 16px;
+   	margin: 4px 2px;
+   	cursor: pointer;
+}
+.body {
+    background-image: url("abc.jpg");
+    background-color: #cccccc;
+}
+</style>
+</head>
+<body background="abc.jpg";background-color: #cccccc;>
+	<center><h1 style="font-family:Comic Sans MS;background-color:pink;color:red;">Welcome To Knowledge Sharing Club</h1></center>
+	<hr>
+	<center><form action="Login">
+	<font size="6">User-Name</font-size>
+	<br>
+	<input type="text"name="txtname"size="50"required style="height:30px" placeholder="Enter your User_ID"/>
+	<br>
+	<font size="6">Password</font>
+	<br>
+	<input type="password"name="txtpassword"size="50"required style="height:30px" placeholder="Enter your password"/>
+	<br>
+	<p id="demo"></p>
+	<script>
+	{
+		var x=document.getElementById("demo")
+		x.innerHTML=Math.floor((Math.random()*100)+1);
+	}
+	</script>
+	<br>
+	<input type="text"name="txtcapture"size="50" style="height:30px" placeholder="Enter recapcha Code"/>
+	<br><br>
+	<input type="submit"class="button"name="Login"value="Login"/>
+	<a href="home.html" class="button">Sign Up</a>
+	</form>
+</body>
+</html>
